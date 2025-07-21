@@ -1,28 +1,36 @@
-# AppointmentApp
+# 🗓️ Simple Appointment Booking App (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
+This is a lightweight appointment booking application built using **Angular standalone components**. Users can add and delete appointments, with data persisted using **Local Storage**.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## ✨ Features
 
-## Code scaffolding
+- 📝 Add new appointments with a title and date
+- 🗑️ Delete existing appointments
+- 💾 All data is saved in the browser using **Local Storage**
+- ✅ Built using Angular Standalone Components
+- 📅 Date formatting using Angular Pipes
+- 🎨 Responsive layout using **Bootstrap**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🔧 Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular 18
+- TypeScript
+- Bootstrap 5
+- Local Storage API
+- NgModel (Template-driven Forms)
+- Standalone Components (`standalone: true`)
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📦 Installation
 
-## Running end-to-end tests
+### Clone the repository
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+git clone https://github.com/your-username/appointment-app.git
+cd appointment-app
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# Appointment-app
